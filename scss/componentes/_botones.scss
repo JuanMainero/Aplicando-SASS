@@ -1,0 +1,22 @@
+button {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1A4D2E;
+    border: solid 2px #696464;
+        &:hover{
+            color:#73777B; 
+        }
+}
+
+.propaganda {
+    button {
+        width: 400px;
+        height: 60px;
+        background-color: red;
+        color: white;           
+        border: red;
+        border-radius: 15px;                
+        margin-top: 20px
+    }
+}

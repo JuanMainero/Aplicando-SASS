@@ -1,0 +1,19 @@
+$color-principal: red;
+$color-secundario:black;
+
+header {
+
+    background-color: $color-secundario;
+
+     h1 {
+        color: $color-principal;
+    }
+    li{
+        color: $color-principal;
+    }
+
+}
+
+.productos {
+    background-color: $color-secundario;
+}

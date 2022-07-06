@@ -1,0 +1,70 @@
+footer {
+    grid-area: footer;
+
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: 5vh, 50vh;
+    grid-template-areas: 
+    "titulo soporte" "titulo compania" "titulo otros"
+    "soporte" "compania" "otros" ;
+
+
+    background-color: black;
+    color: #696464;
+    font-family:'Roboto', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+
+        .soporte {
+            h3{
+                grid-area: titulo soporte;  
+                text-align: center;
+                font-size: 1.8rem;
+            }
+
+            ul{
+                grid-area: soporte; 
+                padding: 15px;
+                list-style-type: none;
+                    li{
+                        padding: 5px;
+                    } 
+            }
+        }
+
+        .compania {
+            h3{
+                grid-area: titulo compania;  
+                text-align: center;
+                font-size: 1.8rem;
+            }
+
+            ul{
+                grid-area: compania; 
+                padding: 15px;
+                list-style-type: none;
+                    li{
+                        list-style-type: none;
+                        padding: 5px;
+                    } 
+            }
+        }
+
+        .otros {
+            h3{
+                grid-area: titulo otros;  
+                text-align: center;
+                font-size: 1.8rem; 
+            }
+
+            ul {
+                grid-area: otros; 
+                padding: 15px;
+                list-style-type: none;
+                    li{
+                        list-style-type: none;
+                        padding: 5px;
+                    }
+            }
+        }
+}
